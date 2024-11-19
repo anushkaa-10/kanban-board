@@ -1,0 +1,60 @@
+.ticket-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 16px;
+  font-family: "Roboto", sans-serif; /* Modern font for better readability */
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-header h3 {
+  margin: 0;
+  font-size: 15px; /* Slightly smaller text */
+  font-weight: normal; /* Removed bold styling */
+  color: #666; /* Grey tone for the title */
+  letter-spacing: 0.5px; /* Adds a modern feel to the text */
+}
+
+.user-avatar {
+  width: 24px; /* Small size for the avatar */
+  height: 24px;
+  border-radius: 50%;
+}
+
+.ticket-description {
+  margin: 10px 0;
+  font-size: 12px; /* Smaller text for compact styling */
+  line-height: 1.5; /* Improves readability */
+  color: #777; /* Slightly lighter grey for description */
+  font-style: italic; /* Adds a soft distinction */
+}
+
+.ticket-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px; /* Smaller size for footer text */
+  color: #888; /* Softer grey tone for footer text */
+  text-transform: capitalize; /* Makes footer text easier to read */
+}
+
+.ticket-icon {
+  font-size: 14px;
+  color: #999; /* Neutral grey for icon */
+}
+
+.ticket-label {
+  background-color: #f2f2f2; /* Light grey background for label */
+  color: #666; /* Medium grey for label text */
+  font-size: 11px; /* Compact styling for labels */
+  padding: 3px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.2px; /* Subtle modern feel */
+}

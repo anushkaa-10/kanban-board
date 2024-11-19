@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff; /* Pure white background for header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+    border-bottom: 1px solid #ddd; /* Light border for further separation */
+  }
+  
+  .header label {
+    font-size: 14px;
+    font-weight: normal;
+    color: #555; /* Dark grey for text */
+    margin-right: 10px;
+  }
+  
+  .header select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333; /* Slightly darker text for better readability */
+  }
+  
+  .header select:focus {
+    outline: none;
+    border-color: #1890ff; /* Blue border on focus */
+  }
+  
+  
